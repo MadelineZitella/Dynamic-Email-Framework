@@ -19,12 +19,12 @@ export enum NotificationType {
 export class NotificationService {
   mockSentMessageInfo: SESTransport.SentMessageInfo = {
     envelope: {
-      from: "development@epsilon.com",
-      to: ["development@epsilon.com"],
+      from: "****@***.com",
+      to: ["****@***.com"],
     },
     messageId: "1234567890",
     response: "200 OK",
-    accepted: ["development@epsilon.com"],
+    accepted: ["****@***.com"],
     rejected: [],
     pending: [],
   };
